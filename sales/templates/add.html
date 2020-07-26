@@ -1,0 +1,18 @@
+{% include 'header.html' %}
+<div class = "container" style = "margin-top: 140px; margin-left: 250px;">
+     <h1 class="headUpload">Add Details</h1>
+
+<form method="POST" enctype="multipart/form-data">
+
+    <!-- Security token -->
+    {% csrf_token %}
+
+    <!-- Using the formset -->
+    {{ form.as_p }}
+
+    <div class = "row" style = "margin-top: 80px">
+        <button type="" class="btn btn-dark">ADD</button>
+        </div>
+
+</form>
+</div>

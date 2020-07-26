@@ -1,0 +1,34 @@
+{% include 'header.html' %}
+
+
+<div class="main" style = "margin-top: 100px">
+
+      <h1 class="headUpload">List All</h1>
+
+
+
+						<table class="table table-hover" id = "dtBasicExample">
+							<thead>
+								<tr>
+
+								   <th>Length</th>
+								   <th>Breadth</th>
+								   <th>Height</th>
+                                    <th>Created By</th>
+									<th>Last Updated Time </th>
+		 						</tr>
+							</thead>
+									{% for data in dataset %}.
+									<tr>
+
+										<td>{{data.length}}</td>
+										<td>{{data.breadth }}</td>
+										<td>{{data.height}}</td>
+                                        <td>{{data.createdby}}</td>
+										 <td>{{data.createdtime}}</td>
+
+									</tr>
+								{% endfor %}
+						</table>
+
+</div>

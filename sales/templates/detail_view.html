@@ -1,0 +1,49 @@
+{% include 'header.html' %}
+<div class = "container" style = "margin-top: 140px; margin-left: 250px;">
+
+     <h1 class="headUpload">Details</h1>
+
+<div class="main">
+    <!-- Create a Form -->
+    <form method="POST">
+        <!-- Security token by Django -->
+        {% csrf_token %}
+
+        <!-- form as paragraph -->
+        <div class="main">
+
+    <!-- Specify fields to be displayed -->
+            <div class = "rows">
+            <label for="length" style = "margin-right: 28px;"><b>length</b></label>
+    {{ data.length}}
+        </div>
+             <div class = "rows">
+            <label for="breadth" style = "margin-right: 28px;"><b>breadth</b></label>
+    {{ data.breadth}}
+             </div>
+                  <div class = "rows">
+            <label for="height" style = "margin-right: 28px;"><b>Height</b></label>
+            {{ data.height}}
+                  </div>
+
+
+</div>
+        <!--<div class = "row" style = "margin-top: 10px">-->
+        <!--{{ form.id }}-->
+         <!--<label for="length" style = "margin-right: 26px;"><b>Length</b></label>-->
+        <!--{{ form.length }}-->
+         <!--</div>-->
+        <!--<div class = "row" style = "margin-top: 10px">-->
+         <!--<label for="breadth" style = "margin-right: 20px;"><b>Breadth</b></label>-->
+        <!--{{ form.breadth }}-->
+            <!--</div>-->
+            <!--<div class = "row" style = "margin-top: 10px">-->
+         <!--<label for="height" style = "margin-right: 28px;"><b>Height</b></label>-->
+        <!--{{ form.height }}-->
+                <!--</div>-->
+
+    </form>
+
+</div>
+
+</div>

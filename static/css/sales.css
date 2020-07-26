@@ -1,0 +1,770 @@
+@font-face {
+    font-family: "Guardian Sans Bold";
+    src: url("../fonts/GuardianSans-Bold-Web.eot");
+    src: url("../fonts/GuardianSans-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianSans-Bold-Web.woff2") format("woff2"), url("../fonts/GuardianSans-Bold-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.GuardianSans-Bold,
+.tag,
+.load-more__text {
+    font-family: "Guardian Sans Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Black-Italic";
+    src: url("../fonts/GuardianEgyp-BlackIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-BlackIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-BlackIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-BlackIt-Web.woff") format("woff");
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypBlack-Italic {
+    font-family: "Guardian Egyptian Black-Italic";
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Black";
+    src: url("../fonts/GuardianEgyp-Black-Web.eot");
+    src: url("../fonts/GuardianEgyp-Black-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Black-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Black-Web.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypBlack {
+    font-family: "Guardian Egyptian Black";
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian -BoldItalic";
+    src: url("../fonts/GuardianEgyp-BoldIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-BoldIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-BoldIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-BoldIt-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.Egyp-BoldItalic {
+    font-family: "Guardian Egyptian -BoldItalic";
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian -Bold";
+    src: url("../fonts/GuardianEgyp-Bold-Web.eot");
+    src: url("../fonts/GuardianEgyp-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Bold-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Bold-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.Egyp-Bold {
+    font-family: "Guardian Egyptian -Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian -SemiBoldItalic";
+    src: url("../fonts/GuardianEgyp-SemiboldIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-SemiboldIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-SemiboldIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-SemiboldIt-Web.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.Egyp-SemiBoldItalic {
+    font-family: "Guardian Egyptian -SemiBoldItalic";
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian -SemiBold";
+    src: url("../fonts/GuardianEgyp-Semibold-Web.eot");
+    src: url("../fonts/GuardianEgyp-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Semibold-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Semibold-Web.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.Egyp-SemiBold {
+    font-family: "Guardian Egyptian -SemiBold";
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Medium-Italic";
+    src: url("../fonts/GuardianEgyp-MediumIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-MediumIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-MediumIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-MediumIt-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypMedium-Italic {
+    font-family: "Guardian Egyptian Medium-Italic";
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Medium";
+    src: url("../fonts/GuardianEgyp-Medium-Web.eot");
+    src: url("../fonts/GuardianEgyp-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Medium-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Medium-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypMedium {
+    font-family: "Guardian Egyptian Medium";
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Regular-Italic";
+    src: url("../fonts/GuardianEgyp-RegularIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-RegularIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-RegularIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-RegularIt-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypRegular-Italic {
+    font-family: "Guardian Egyptian Regular-Italic";
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Regular";
+    src: url("../fonts/GuardianEgyp-Regular-Web.eot");
+    src: url("../fonts/GuardianEgyp-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Regular-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Regular-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypRegular {
+    font-family: "Guardian Egyptian Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Light-Italic";
+    src: url("../fonts/GuardianEgyp-LightIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-LightIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-LightIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-LightIt-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypLight-Italic {
+    font-family: "Guardian Egyptian Light-Italic";
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Light";
+    src: url("../fonts/GuardianEgyp-Light-Web.eot");
+    src: url("../fonts/GuardianEgyp-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Light-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Light-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypLight {
+    font-family: "Guardian Egyptian Light";
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Thin-Italic";
+    src: url("../fonts/GuardianEgyp-ThinIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-ThinIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-ThinIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-ThinIt-Web.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypThin-Italic {
+    font-family: "Guardian Egyptian Thin-Italic";
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Thin";
+    src: url("../fonts/GuardianEgyp-Thin-Web.eot");
+    src: url("../fonts/GuardianEgyp-Thin-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Thin-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Thin-Web.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypThin {
+    font-family: "Guardian Egyptian Thin";
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Hairline-Italic";
+    src: url("../fonts/GuardianEgyp-HairlineIt-Web.eot");
+    src: url("../fonts/GuardianEgyp-HairlineIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-HairlineIt-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-HairlineIt-Web.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypHairline-Italic {
+    font-family: "Guardian Egyptian Hairline-Italic";
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Hairline";
+    src: url("../fonts/GuardianEgyp-Hairline-Web.eot");
+    src: url("../fonts/GuardianEgyp-Hairline-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Hairline-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Hairline-Web.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypHairline {
+    font-family: "Guardian Egyptian Hairline";
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian TextBlack-Italic";
+    src: url("../fonts/GuardianTextEgyp-BlackIt-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-BlackIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-BlackIt-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-BlackIt-Web.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypTextBlack-Italic {
+    font-family: "Guardian Egyptian TextBlack-Italic";
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian TextBlack";
+    src: url("../fonts/GuardianTextEgyp-Black-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-Black-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-Black-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-Black-Web.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypTextBlack {
+    font-family: "Guardian Egyptian TextBlack";
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Text-BoldItalic";
+    src: url("../fonts/GuardianTextEgyp-BoldIt-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-BoldIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-BoldIt-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-BoldIt-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypText-BoldItalic {
+    font-family: "Guardian Egyptian Text-BoldItalic";
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Text-Bold";
+    src: url("../fonts/GuardianTextEgyp-Bold-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-Bold-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-Bold-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypText-Bold {
+    font-family: "Guardian Egyptian Text-Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Text-MediumItalic";
+    src: url("../fonts/GuardianTextEgyp-MediumIt-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-MediumIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-MediumIt-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-MediumIt-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypText-MediumItalic {
+    font-family: "Guardian Egyptian Text-MediumItalic";
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian Text-Medium";
+    src: url("../fonts/GuardianTextEgyp-Medium-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-Medium-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-Medium-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypText-Medium {
+    font-family: "Guardian Egyptian Text-Medium";
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian TextRegular-Italic";
+    src: url("../fonts/GuardianTextEgyp-RegularIt-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-RegularIt-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-RegularIt-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-RegularIt-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal
+}
+
+.EgypTextRegular-Italic {
+    font-family: "Guardian Egyptian TextRegular-Italic";
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "Guardian Egyptian TextRegular";
+    src: url("../fonts/GuardianTextEgyp-Regular-Web.eot");
+    src: url("../fonts/GuardianTextEgyp-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianTextEgyp-Regular-Web.woff2") format("woff2"), url("../fonts/GuardianTextEgyp-Regular-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+.EgypTextRegular {
+    font-family: "Guardian Egyptian TextRegular";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "display-egyptian-thin";
+    src: url("../fonts/GuardianEgyp-Thin-Web.eot");
+    src: url("../fonts/GuardianEgyp-Thin-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Thin-Web.woff2") format("woff2"), url("/fonts/GuardianEgyp-Thin-Web.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "display-egyptian-light";
+    src: url("../fonts/GuardianEgyp-Light-Web.eot");
+    src: url("../fonts/GuardianEgyp-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Light-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Light-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "display-sans-semibold";
+    src: url("../fonts/GuardianEgyp-Medium-Web.eot");
+    src: url("../fonts/GuardianEgyp-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/GuardianEgyp-Medium-Web.woff2") format("woff2"), url("../fonts/GuardianEgyp-Medium-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "display-sans-light";
+    src: url("fonts/GdnSanDS2Lig.eot");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .tablebox, .tableboxseach, .headerContainer{
+        margin: 0 auto;
+         width :1400px;
+         max-width: 1400px;
+     }
+    }
+.line2, .line3, .line4, .line5, .line6, .line7, .line8{
+    margin-top: 10px;
+}
+
+.head {
+    font-family: display-egyptian-thin, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+body{
+    background: linear-gradient(rgba(28,32,45,0.9), rgba(28,32,45,0.09)),url(/static/images/genpact.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.blurred-box{
+  position: relative;
+    /* width: 250px; */
+    /* height: 350px; */
+    top: calc(49% - 172px);
+    /* left: calc(50% - 125px); */
+    background: inherit;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-family:display-sans-semibold, sans-serif;
+    font-size:16px;
+    color:wheat;
+}
+   #cover {
+    left: 0;
+    right: 0;
+    width: 810px;
+    padding: 0px;
+    margin: 0px auto 0 auto;
+    background-color: #ff7575;
+    border-radius: 24px;
+    box-shadow: 0 10px 28px #ff7c7c, 0 0 0 15px #ffffffeb;
+    transform: scale(0.5);
+}
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    #s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+.searchbutton
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 15px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+.searchbutton span
+{
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+.searchbutton span:before, .searchbutton span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 50%;
+    left: 56px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+.tableboxseach input[type="text"]
+{
+    width: 100%;
+    height: 96px;
+    font-size: 52px !important;
+    line-height: 1;
+}
+
+.tableboxseach input[type="text"]::placeholder
+{
+    color: #e16868;
+}
+.tableboxseach input, .tableboxseach button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+.logo{
+  border-radius: 15px;
+}
+.video-hero__video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    height: 100%;
+    min-width: 100vw;
+    z-index: -1;
+}
+#navbarResponsive a{
+    color : #01a2c1;
+    font-weight : bolder;
+}
+#navbarResponsive a:hover, #navbarResponsive a:active{
+    color:white;
+}
+.car_head, .lead{
+    color : white;
+    font-family: display-egyptian-thin,sans-serif;
+    text-align : center;
+    font-weight: bold;
+}
+.car_head{
+    font-size:64px;
+}
+.why{
+    color : #01a2c1;
+    font-family: display-egyptian-thin,sans-serif;
+    text-align : center;
+    font-weight: bold;
+
+}
+.pager{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.hometext{
+    padding:12% 0% 22% 0%;
+
+}
+.upload_file{
+        padding: 8% 5% 25.6%;
+}
+.headUpload {
+    font-family: display-egyptian-thin, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+}
+.uploadButton{
+    margin-top:5%;
+}
+.tablebox{
+    padding: 8% 0%;
+}
+.selectRow{
+    color: white;
+    font-family: display-egyptian-thin,sans-serif;
+    font-weight: 600;
+}
+.selectBox{
+    width:8%;
+}
+#dtBasicExample thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    color: wheat;
+}
+#dtBasicExample td, #dtBasicExample th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: wheat;
+}
+.buttonEdit{
+    color:wheat;
+}
+.buttonEdit:hover{
+    color:white;
+}
+.addTextWrapper{
+    padding:8% 0%;
+}
+.tableboxseach{
+    padding: 8% 0% 34.7%;
+}
+.signup{
+    width:32px;
+}
+.linkPDf{
+    padding-left: 40%;
+    font-size: 20px;
+    color: rgb(255, 85, 95);
+}
+.updateWrapper{
+    padding:8%;
+
+}
+.upload_text{
+    color:wheat;
+}
+td .nonEdit{
+    display: block;
+    font-size: 11px;
+    color: red;
+}
+td .edit{
+    display: block;
+    font-size: 11px;
+    color: greenyellow;
+}
+.alert{
+    display:none;
+    }

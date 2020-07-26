@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+<div class = "container" style = "margin-top: 250px; margin-left: 250px;">
+
+     <h1 class="headUpload">Login</h1>
+<form action="login" method="POST">
+    {%  csrf_token %}
+  <div class="container">
+
+     <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <button type="submit" class="Login">Login</button>
+  </div>
+</form>
